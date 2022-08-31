@@ -1,0 +1,16 @@
+.our-clients-text-bg{
+    background-color: #212529;
+    color: #ffffff;
+}
+.our-clients-logo-bg{
+    background-color: #ff5021;
+}
+.our-clients-text{
+    padding: 1rem 4rem;
+    font-size: 55px;
+}
+.our-clients-logo-bg img{
+    width: 100%;
+    max-width: 240px;
+    padding: 10px;
+}

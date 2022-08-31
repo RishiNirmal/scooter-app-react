@@ -1,0 +1,110 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    padding: 0 0 0 0;
+    background: #FFFFFF;
+    /* background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%); */
+  }
+  #hero h1 {
+    margin: 0 0 22px 0;
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #343434;
+    font-family: "Poppins", sans-serif;
+  }
+  #hero h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  #hero h3{
+    font-weight: 700;
+    font-size: 95px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+  }
+  #hero .btn-get-started {
+    color: #ffffff;
+    border-radius: 13px;
+    padding: 8px 35px 10px 35px;
+    border: 2px solid #ff5021;
+    transition: all ease-in-out 0.3s;
+    display: inline-block;
+    background: #ff5021;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  #hero .btn-get-started:hover {
+    background: #ff5021;
+    color: #fff;
+  }
+  #hero p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: system-ui;
+  }
+  #hero .happy-customers{
+    margin-top: 2rem;
+    display:grid;
+  }
+  #hero .happy-customers p{
+    display: inline;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+  #hero .happy-customers label{
+    color: #aaacab;
+  }
+  .hero-play{
+      background-color: #e5e5e5;
+      border-radius: 50%;
+      margin-left: 20px;
+    padding: 10px 4px 14px 5px;
+  }
+  .hero-play img{
+    width: 100%;
+    max-width: 40px;
+    padding: 2px;
+  }
+  @media (max-width: 991px) {
+    #hero .hero-img {
+      text-align: center;
+    }
+    #hero .hero-img img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 768px) {
+    #hero {
+      -moz-text-align-last: center;
+      text-align-last: center;
+    }
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+    #hero .hero-img img {
+      width: 70%;
+    }
+  }
+  @media (max-width: 575px) {
+    #hero .hero-img img {
+      width: 80%;
+    }
+  }
+  .sco-img{
+    /* border-radius: 50%; */
+  }

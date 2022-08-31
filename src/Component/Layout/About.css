@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+#about{
+    background: #ffff;
+}
+.about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    color: #213b52;
+  }
+  .about .content p {
+    margin-bottom: 0;
+  }
+  .about .content .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0 10px 35px;
+    color: #213b52;
+  }
+  .about .content .icon-box h4 a {
+    color: #213b52;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .about .content .icon-box h4 a:hover {
+    color: #ff5021;
+  }
+  .about .content .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: #ff5021;
+  }
+  .about .content .icon-box p {
+    font-size: 15px;
+    color: #848484;
+    margin-left: 60px;
+  }
+  .about .image {
+    background: url("../../Images/Hero/about.jpg") center center no-repeat;
+    background-size: contain;
+    min-height: 400px;
+  }
+  @media (max-width: 667px) {
+    .about .image img {
+      max-width: 100%;
+    }
+  }
